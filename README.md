@@ -1,6 +1,6 @@
 # 
 
-NOTE: This is based on (minblog (Minimal Static Markdown Blog Generator))[https://github.com/bwhtdev/minblog]
+NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https://github.com/bwhtdev/minblog)
 
 ### Commands to run
 - `nix-shell`
