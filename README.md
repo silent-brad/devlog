@@ -1,4 +1,8 @@
-# 
+# devlog
+
+> *My Developer Portfolio/Blog*
+
+Hosted on [dev.knightoffaith.systems](https://dev.knightoffaith.systems)
 
 NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https://github.com/bwhtdev/minblog)
 
