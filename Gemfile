@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'kramdown'
+gem 'listen'
+gem 'yaml'
+gem 'erb'
+gem 'webrick'

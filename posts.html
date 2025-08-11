@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Posts</title>
+</head>
+<body>
+  <h1>Posts</h1>
+  <% posts_data.each do |post_data| %>
+    <h1><%= post_data[:title] %></h1>
+    <p>Date: <%= post_data[:date] %></p>
+    <a href="<%= post_data[:link] %>">View</a>
+  <% end %>
+</body>
+</html>
