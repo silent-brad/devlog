@@ -13,7 +13,7 @@ NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https:
 - `nix develop | ./result/bin/serve`
 
 ### TODOS
-- [ ] Make mobile friendly
+- [x] Make mobile friendly
 - [ ] Switch images to WebP
 - [ ] Add blog
 - [ ] Add cool link hover thing
