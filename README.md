@@ -14,6 +14,7 @@ NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https:
 
 ### TODOS
 - [x] Make mobile friendly
+  - [x] Make link icons not break on mobile (on my iphone the icons don't show up at all)
 - [ ] Switch images to WebP
 - [ ] Add blog
 - [ ] Add cool link hover thing
