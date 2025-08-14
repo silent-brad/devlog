@@ -12,6 +12,9 @@ NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https:
 - `nix-shell`
 - `nix develop | ./result/bin/serve`
 
+### NOTES
+- Icons in links are sourced from [icons8](https://icons8.com/icons/set/bookmark)
+
 ### TODOS
 - [x] Make mobile friendly
   - [x] Make link icons not break on mobile (on my iphone the icons don't show up at all)
