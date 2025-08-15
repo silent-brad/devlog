@@ -14,12 +14,13 @@ NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https:
 
 ### NOTES
 - Icons in links are sourced from [icons8](https://icons8.com/icons/set/bookmark)
+- Dev Icons are sourced from [devicon](https://devicon.dev)
 
 ### TODOS
 - [x] Make mobile friendly
   - [x] Make link icons not break on mobile (on my iphone the icons don't show up at all)
 - [x] Make buttons Skeuomorphic
+- [x] Add blog
+- [x] Add blog list
 - [ ] Switch images to WebP
-- [ ] Add blog
 - [ ] Add cool link hover thing
-- [ ] Add blog list
