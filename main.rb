@@ -79,7 +79,7 @@ end
 
 # Perform initial generation of posts page
 # NOTE Check if blog directory is empty ->
-#generate_posts_page(source_dir, dest_dir)
+generate_posts_page(source_dir, dest_dir)
 
 # Set up listener to monitor the 'blog' directory for changes to .md files
 listener = Listen.to(source_dir, only: /\.md$/) do |modified, added, removed|

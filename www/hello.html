@@ -15,9 +15,9 @@
   <link rel="preload" href="assets/fonts/TriakisFont-Regular.otf" as="font" type="font/otf" crossorigin />
 
   <!-- Primary Meta Tags -->
-  <title>Brad White — Posts</title>
-  <meta name="title" content="Brad White — Posts" />
-  <meta name="description" content="Brad White — Posts" />
+  <title>Hello World</title>
+  <meta name="title" content="Hello World" />
+  <meta name="description" content="Hello World" />
 
   <!-- Twitter -->
   <!--<meta property="twitter:card" content="summary_large_image" />
@@ -104,16 +104,14 @@
 <body class="bg-pri dark:bg-pri-dark font-triakis md:overflow-hidden">
   <main class='mx-auto min-h-full max-w-4xl py-16 sm:px-16 md:flex md:h-screen md:items-center'>
     <section class='justify-center py-4 font-xl'>
-      <h1 class='md:text-4xl text-2xl my-2 font-baunk text-gray-700 dark:text-gray-200'>Posts<p>
+      <h1 class='md:text-5xl text-3xl my-2 font-baunk text-gray-700 dark:text-gray-200'>Hello World<p>
+      <h3 class='md:text-lg text-md text-gray-600 dark:text-gray-300'>July 14, 2025</h3>
 
-      <ul class=''>
-        <% posts_data.each do |post_data| %>
-          <a href="<%= post_data[:link] %>" target='_blank'>
-            <span class='text-gray-500 dark:text-gray-400 text-lg'><%= post_data[:title] %></span>
-            <span class='md:text-md text-sm text-gray-600 dark:text-gray-300'><%= post_data[:date].strftime("%B %d, %Y") %></span>
-          </a>
-        <% end %>
-      </ul>
+      <div class='text-gray-500 dark:text-gray-400 md:text-2xl text-xl'>
+        
+<p>Hello world! Welcome to my dev blog.</p>
+
+      </div>
     </section>
   </main>
 
