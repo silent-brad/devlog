@@ -95,6 +95,10 @@
     .btn-hover {
       @apply hover:shadow-[rgba(163,82,82,0.4)] dark:hover:shadow-[rgba(250,160,160,0.4)];
     }
+
+    .sites > li > a {
+      @apply hover:text-[rgba(163,82,82,0.4)] dark:hover:text-[rgba(250,160,160,0.4)];
+    }
   </style>
 </head>
 <body class="bg-pri dark:bg-pri-dark font-triakis md:overflow-hidden">
@@ -102,7 +106,7 @@
     <section class='justify-center py-4 font-xl'>
       <h1 class='md:text-4xl text-2xl my-2 font-baunk text-gray-700 dark:text-gray-300'>Favorite Dev Sites (mostly blogs)<h1>
 
-      <ul class='flex flex-col gap-2 md:text-3xl text-xl my-4 text-gray-500 dark:text-gray-400 font-triakis'>
+      <ul class='sites flex flex-col gap-2 md:text-3xl text-xl my-4 text-gray-500 dark:text-gray-400 font-triakis'>
         <li><a target="_blank" href="https://world.hey.com/dhh">DHH's Blog</a></li>
         <li><a target="_blank" href="https://paulgraham.com/">Paul Graham's Blog</a></li>
         <li><a target="_blank" href="https://bvisness.me/">Ben Visness' Blog</a></li>
