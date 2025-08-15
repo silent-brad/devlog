@@ -99,6 +99,10 @@
     a {
       @apply hover:text-[rgba(163,82,82,0.4)] dark:hover:text-[rgba(250,160,160,0.4)];
     }
+    
+    .link-active {
+      @apply shadow-[rgba(163,82,82,0.4)] dark:shadow-[rgba(250,160,160,0.4)];
+    }
   </style>
 </head>
 <body class="bg-pri dark:bg-pri-dark font-triakis md:overflow-hidden">
@@ -129,7 +133,7 @@
           </svg>
         </a>
 
-        <a href="/posts" target='_blank' class='btn btn-hover w-12 h-12 md:w-14 md:h-14'>
+        <a href="/posts" target='_blank' class='link-active btn w-12 h-12 md:w-14 md:h-14'>
           <image src="/assets/writing.png" alt="Posts" />
         </a>
 
