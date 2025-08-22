@@ -22,5 +22,6 @@ NOTE: This is based on [minblog (Minimal Static Markdown Blog Generator)](https:
 - [x] Make buttons Skeuomorphic
 - [x] Add blog
 - [x] Add blog list
+- [ ] (When self host Gitea/Radicle:) Act as GitHub profile page with stats/repos etc (with API calls)
 - [ ] Switch images to WebP
 - [ ] Add cool link hover thing
